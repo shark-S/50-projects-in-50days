@@ -44,7 +44,7 @@ mysql_select_db("hello");
        if(isset($_POST['subject'])){
 
           $subject=$_POST['subject'];
-          $query=mysql_query("INSERT INTO `subjects` VALUES('','$subject','5','5')");
+          $query=mysql_query("INSERT INTO `subjects` VALUES('','$subject','0','0')");
  
         
           if(mysql_affected_rows()>0){
