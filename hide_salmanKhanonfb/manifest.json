@@ -1,0 +1,21 @@
+{
+	// salu
+	"manifest_version":2,
+	"name":"HideSalman",
+	"version":"1.0",
+	"browser_action":{
+		"default_icon":"icon.png"
+		
+	},
+	"background":{
+		"scripts":["hidesalman.js"],
+		"persistent":false
+		},
+	"permissions":[
+	"activeTab",
+	"http://www.facebook.com/*",
+	"https://www.facebook.com/*"
+	]
+
+
+}
